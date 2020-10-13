@@ -1,0 +1,18 @@
+<h1>Welcome to Coder Cafe!</h1>
+
+<%= @menu %>
+
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+    </tr>
+    <% @menu.each do |key, val| %>
+    <tr>
+        <td><%= key.capitalize %></td>
+        <td> $ <%= "%.2f" % val %></td>
+
+    </tr>
+    <% end %>   
+    
+</table>

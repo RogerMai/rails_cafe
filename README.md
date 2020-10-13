@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 # rails_cafe
 # rails_cafe
+# rails_cafe2
